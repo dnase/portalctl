@@ -4,6 +4,8 @@
 # The values below should be changed #
 # to contain your luminis root       #
 # directory and server hostnames     #
+# (do not add the server where this  #
+# script will live)                  #
 ######################################
 lumdir="/lum"
 servers=( "casserver.mydomain.edu" "webserver1.mydomain.edu" "webserver2.mydomain.edu" )
