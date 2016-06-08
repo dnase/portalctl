@@ -31,7 +31,7 @@ case "$1" in
         cmd="sudo $lumdir/bin/lpstop"
         ;;
     "restart")
-        cmd="sudo $lumdir/bin/lpstop;sudo $lumdir/bin/lpstart"
+        cmd="sudo $lumdir/bin/lpstop && sudo $lumdir/bin/lpstart"
         ;;
     *)
         cmd="exit"
